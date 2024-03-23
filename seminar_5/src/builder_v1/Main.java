@@ -1,8 +1,5 @@
 package builder_v1;
 
-import builder_v1.FacilitatiInternare;
-import builder_v1.FacilitatiInternareBuilder;
-
 public class Main {
     public static void main(String[] args) {
 
