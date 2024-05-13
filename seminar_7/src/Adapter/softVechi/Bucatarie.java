@@ -32,7 +32,7 @@ public class Bucatarie implements SoftBucatarie{
         float suma = 0;
         for (Produs produs:listaProduse) {
             System.out.println("Produs: " + produs.getDenumire() + " pret: " + produs.getPret());
-            suma = suma +  produs.getPret();
+            suma += produs.getPret();
         }
         System.out.println("Total de plata: " + suma + "\n");
 
